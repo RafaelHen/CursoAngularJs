@@ -11,7 +11,8 @@ import { CursosService } from './cursos/cursos.service';
 //import { CursosComponent } from './cursos/cursos.component';
 //import { CursoDetalheComponent } from './cursos/curso-detalhe/curso-detalhe.component';
 import { AppRoutingModule } from './app.routing.module';
-import { CursosModule } from './cursos/cursos.module';
+//import { CursosModule } from './cursos/cursos.module';
+//import { AlunosModule } from './alunos/alunos.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CursosModule } from './cursos/cursos.module';
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    CursosModule
+    //CursosModule,
+    //AlunosModule
     //routing
   ],
   providers: [CursosService],
